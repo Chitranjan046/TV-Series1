@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header {
+    height: 100px;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 0, 0, 0.304);
+}
+
+.header h1 {
+    font-size: 50px;
+    color: black;
+    letter-spacing: 3px;
+}
+
+.container {
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(60, 121, 121);
+    background-color: rgb(30, 14, 14);
+}
+
+.card {
+    box-shadow: 0px 0px 10px 2px grey;
+    width: 80%;
+    height: 250px;
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: antiquewhite;
+}
+
+.poster {
+    height: 100%;
+    width: 40%;
+}
+
+.poster img {
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.details {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.title {
+    font-size: 25px;
+    color: grey;
+    letter-spacing: 2px;
+}
+
+.rating {
+    font-size: 25px;
+    color: grey;
+}
+
+.description {
+    font-size: 18px;
+    color: grey;
+    letter-spacing: 2px;
+    font-style: oblique;
+}
+
+@media screen and (max-width: 235px) {
+    .description {
+        width: 250px;
+    }
+}
+
+@media  screen and (max-width:500px){
+    .description {
+        width: 230px;
+    }
+}
